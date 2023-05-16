@@ -1,0 +1,121 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  z-index: 3;
+}
+.banner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.dark-banner-box h2 {
+  color: #d2dff5 !important;
+}
+.dark-banner-box h5 {
+  color: #9fb2d3 !important;
+}
+.dark-banner-title1 {
+  color: #af6cf6;
+}
+.banner-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.banner-title h2 {
+  font-size: 50px;
+  font-weight: 750;
+  text-align: center;
+}
+.banner-title2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.banner-title2 h2 {
+  font-size: 50px;
+  font-weight: 750;
+}
+.banner-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.banner-subtitle h5 {
+  color: rgb(95, 82, 82);
+  font-size: 20px;
+  text-align: center;
+}
+
+.dark-banner-title12 {
+  color: #5693ff;
+}
+.banner-img img {
+  width: 100%;
+  height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-title h2 {
+    font-size: 1.7rem;
+    font-weight: 750;
+  }
+  .banner-subtitle h5 {
+    font-size: 0.7rem;
+  }
+  .banner-title2 h2 {
+    font-size: 1.7rem;
+    font-weight: 750;
+  }
+  .banner-img {
+    margin-top: -20px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 850px) {
+  .banner-box {
+    width: 100%;
+  }
+
+  .banner-title h2 {
+    font-size: 1.7rem;
+    font-weight: 750;
+  }
+  .banner-subtitle h5 {
+    font-size: 0.9rem;
+  }
+
+  .banner-title2 {
+    justify-content: center;
+  }
+  .banner-title2 h2 {
+    font-size: 1.7rem;
+    font-weight: 750;
+  }
+}
+
+@media screen and (min-width: 776px) and (max-width: 1360px) {
+  .banner-box {
+    width: 100%;
+  }
+  .banner-title h2 {
+    font-size: 2.18rem;
+    font-weight: 750;
+  }
+  .banner-title2 h2 {
+    font-size: 2.18rem;
+    font-weight: 750;
+  }
+  .banner-subtitle {
+    justify-content: center;
+  }
+}

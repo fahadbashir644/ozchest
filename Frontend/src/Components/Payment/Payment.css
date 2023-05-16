@@ -1,0 +1,290 @@
+* {
+  font-family: "Existence Light";
+}
+.payment-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25.5rem;
+  height: 29rem;
+  background-color: white;
+  border: 1px solid rgba(150, 159, 175, 0.2196078431372549);
+  box-shadow: 0 8px 10px 0 rgb(0 0 0 / 12%);
+  z-index: 55;
+  position: fixed;
+  top: 8%;
+}
+.payment-div {
+  width: 90%;
+}
+.order-name1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.order-name1 input {
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 1%;
+  background: rgb(236, 245, 254);
+}
+
+.order-name2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.order-name2 input {
+  width: 45%;
+  border-radius: 4px;
+  border: none;
+  padding: 1%;
+  background: rgb(236, 245, 254);
+}
+
+.payment-box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.head1 {
+  display: block;
+  color: rgb(236, 245, 254);
+}
+.head2 {
+  display: block;
+  color: rgb(236, 245, 254);
+}
+.payment-div3 h2 {
+  color: rgb(139, 41, 242);
+
+  font-weight: bold;
+}
+.payment-box p {
+  margin-top: 20px;
+}
+.payment-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-bar input {
+  width: 20%;
+}
+.email-input {
+  margin-bottom: 5%;
+  display: block;
+  border-radius: 4px;
+  padding: 1%;
+}
+
+.email-input1 {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 1%;
+}
+.name-div {
+  display: flex;
+  justify-content: space-between;
+}
+.name-box input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.refill-btn {
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  color: white;
+  border: none;
+  width: 40%;
+  margin-top: 5%;
+  border-radius: 4px;
+  padding: 1%;
+}
+.generate-btn {
+  display: block;
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 40%;
+  margin-top: 5%;
+  border-radius: 4px;
+}
+.para {
+  display: block;
+}
+
+.para1 {
+  display: block;
+}
+
+.para1 button {
+  color: rgb(139, 41, 242);
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+.para button {
+  color: rgb(139, 41, 242);
+
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+.payment-innerbox {
+  display: block;
+  flex-direction: column;
+  border-radius: 4px;
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  padding: 2%;
+}
+.payment-innerbox2 {
+  display: none;
+  flex-direction: column;
+}
+.order-name11 input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-name input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  width: 100%;
+}
+.name-box {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.name-box2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.payment-div3 span {
+  font-size: 13px;
+  color: grey;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect-btn {
+  display: block;
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 40%;
+  margin-top: 5%;
+  border-radius: 4px;
+}
+
+.refill-btn1 {
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  color: white;
+  border: none;
+  width: 15%;
+  border-radius: 4px;
+}
+.payment-div1 {
+  display: flex;
+  flex-direction: column;
+  width: 23.5rem;
+}
+.payment-div2 {
+  display: none;
+  flex-direction: column;
+  width: 23.5rem;
+}
+.payment-div3 {
+  display: none;
+  flex-direction: column;
+  width: 23.5rem;
+}
+.payment-div4 {
+  display: none;
+  flex-direction: column;
+  width: 23.5rem;
+}
+.payment-bar1 {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-bar1 input {
+  width: 70%;
+}
+.payment-bar input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.refill-btn2 {
+  background: linear-gradient(104deg, rgb(139, 41, 242) 25%, rgb(32, 111, 255));
+  color: white;
+  border: none;
+  width: 20%;
+  border-radius: 4px;
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .payment-container {
+    width: 20rem;
+  }
+}
+
+/*  key generate css  */
+
+.payment-bar1 form {
+  padding-left: 50px;
+  padding-top: 50px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.payment-bar1 h1 {
+  text-align: center;
+  margin-bottom: 5%;
+  color: white;
+  font-size: 25px;
+}
+.payment-bar1 h3 {
+  text-align: left;
+  margin-bottom: 5%;
+
+  color: white;
+  font-size: 15px;
+}
+
+.payment-bar1 button {
+  transition: 0.5s;
+  height: 45px;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+.buttonC {
+  transition: 0.5s;
+  height: 30px;
+  width: 12%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 60px;
+}

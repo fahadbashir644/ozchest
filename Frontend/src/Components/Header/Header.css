@@ -1,0 +1,129 @@
+@font-face {
+  font-family: abeatbykai;
+  src: url(../../Assets/ABEAKRG.TTF);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(236, 245, 254);
+  box-sizing: border-box;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  border-bottom: 1px solid rgb(209, 196, 196);
+}
+.dark-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0c0d18 !important;
+  box-sizing: border-box;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  border-bottom: 1px solid #18202e !important;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.header-logo {
+  display: flex;
+  align-items: flex-start;
+  width: 20%;
+}
+.header-logo span {
+  font-family: abeatbykai, sans-serif;
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(245, 24, 171), rgb(67, 129, 245));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-options {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.header-money {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.header-money a {
+  cursor: pointer;
+}
+.dark-header-money {
+  background-color: #0c0d18 !important;
+}
+.dark-header-money button {
+  background-color: #0c0d18 !important;
+  color: #d2dff5 !important;
+}
+.dark-header-money span {
+  color: #d2dff5 !important;
+}
+.header-money button {
+  border: none;
+  background-color: white;
+}
+.currency-btn {
+  background-color: transparent;
+  border: none;
+}
+.dark-currency-btn {
+  background-color: #0c0d18 !important;
+  color: #d2dff5 !important;
+}
+.header-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark-cart-btn span {
+  color: #d2dff5 !important;
+}
+.cart-icon {
+  color: rgb(107, 95, 179) !important;
+}
+.wallet-icon {
+  color: rgb(107, 95, 179);
+}
+.cart-text {
+  display: block;
+}
+
+@media screen and (max-device-width: 775px) {
+  .cart-text {
+    display: none;
+  }
+  .header-box {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 560px) {
+  .cart-text {
+    display: none !important;
+  }
+  .header-box {
+    width: 95% !important;
+  }
+  .header-logo img {
+    width: 70px !important;
+  }
+  .header-options {
+    width: 90% !important;
+  }
+}

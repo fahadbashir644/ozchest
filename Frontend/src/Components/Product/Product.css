@@ -1,0 +1,238 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 0%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgb(236, 245, 254);
+  z-index: 8;
+  transition: 0.5s;
+  position: fixed;
+  overflow-y: scroll;
+}
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+.backbtn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(175, 164, 164);
+}
+.backbtn-box button {
+  background-color: transparent;
+  border: none;
+}
+.header-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-icon {
+  color: rgb(110, 21, 103);
+}
+.cart-text {
+  display: block;
+}
+.itemdetails-container {
+  display: flex;
+}
+.itemdetails-box {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.item-image {
+  display: flex;
+  width: 40%;
+  height: 180px;
+  align-items: flex-end;
+}
+.item-image img {
+  width: 240px;
+  height: 140px;
+  border-radius: 4px;
+}
+.item-details {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.item-title {
+  display: flex;
+}
+.item-title h1 {
+  font-size: 1.7rem;
+  color: #192336;
+}
+.item-desc {
+  display: flex;
+  flex-direction: column;
+}
+.item-desc1 {
+  display: none;
+  flex-direction: column;
+}
+.itemdesc-row p {
+  font-size: 0.7rem;
+  color: #2c4064;
+}
+.checkout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(209, 196, 196);
+}
+.checkout-box {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+.checkout-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-row button {
+  color: white !important;
+}
+.checkout-btn span {
+  color: white !important;
+}
+.checkout-row2 {
+  display: flex;
+  flex-direction: column;
+}
+.region-box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.amount-box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.region-box2 {
+  display: none;
+  flex-direction: column;
+}
+.categories1 {
+  background-color: transparent;
+  color: #00102d;
+  border: none;
+  font-family: poppins500;
+  width: 100%;
+}
+.dark-categories1 {
+  background-color: #151620;
+  color: #00102d;
+  border: none;
+  font-family: poppins500;
+  width: 100%;
+}
+.country-btn {
+  border: 1px solid rgb(209, 196, 196);
+  background-color: rgb(236, 245, 254);
+  font-family: poppins500;
+  width: 100%;
+  color: #00102d;
+}
+.checkcart-btn {
+  background-color: #00102d;
+  width: 100%;
+  color: white;
+}
+.checkout-btn {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 24, 171),
+    rgb(67, 129, 245)
+  );
+  border: none;
+  color: white;
+}
+
+.dark-product-container {
+  background-color: #0c0d18 !important;
+}
+.dark-product-container h1 {
+  color: #9fb2d3 !important;
+}
+.dark-product-container p {
+  color: #9fb2d3 !important;
+}
+.dark-backbtn-box {
+  color: #9fb2d3 !important;
+  border-bottom: 1px solid #18202e !important;
+}
+.dark-backbtn-box button {
+  color: #9fb2d3 !important;
+}
+.dark-backbtn-box span {
+  color: #9fb2d3 !important;
+}
+
+.dark-checkout-container {
+  border: 1px solid #18202e !important;
+}
+.dark-checkout-container span {
+  color: #9fb2d3 !important;
+}
+
+.dark-checkout-container select {
+  background-color: #151620 !important;
+  border: 1px solid #18202e !important;
+  color: #6d7a91 !important;
+}
+.dark-checkcart-btn {
+  color: #0a0a0e !important;
+  background-color: #6d7a91 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .region-box {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1250px) {
+  .itemscreen-size {
+    width: 80% !important;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 949px) {
+  .itemscreen-size {
+    width: 100% !important;
+  }
+  .item-image {
+    display: none;
+  }
+  .item-desc {
+    display: none;
+  }
+  .item-desc1 {
+    display: flex;
+  }
+  .item-details {
+    width: 100%;
+  }
+  .item-title {
+    justify-content: center;
+  }
+  .itemdesc-row p {
+    text-align: center;
+  }
+}

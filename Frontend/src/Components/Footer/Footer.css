@@ -1,0 +1,169 @@
+@font-face {
+  font-family: poppins500;
+  src: url(../../Assets/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: abeatbykai;
+  src: url(../../Assets/ABEAKRG.TTF);
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: poppins500 !important;
+  font-size: 12px !important;
+  width: 100%;
+  background: rgb(236, 245, 254);
+}
+.dark-footer-container {
+  background-color: #0c0d18 !important;
+}
+.dark-footer-container span {
+  color: #d2dff5 !important;
+}
+.dark-footer-container button {
+  color: #d2dff5 !important;
+}
+.footer-box {
+  display: flex;
+  border-top: 2px solid grey;
+  margin-bottom: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.footer-elements {
+  background-color: transparent;
+  margin: 10px;
+  width: 20%;
+}
+.footer-review {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: left;
+}
+.review-name {
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+.review-name1 {
+  font-family: abeatbykai;
+  font-size: 18px;
+  font-weight: bold;
+  color: #566a8d;
+}
+.img1 {
+  width: 196px;
+  height: 117px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  margin-bottom: 13.2px;
+}
+.link-btn {
+  background-color: transparent;
+  border: none;
+  padding-left: 0px;
+}
+.footer-payment {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-connect {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  align-items: flex-end;
+}
+.accounts {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.account-img {
+  width: 35px;
+  height: 35px;
+}
+input[class="a"] {
+  -webkit-appearance: none;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+  background-size: cover;
+  border-radius: 50px;
+  outline: none;
+  transition: background-image 0.9s;
+  box-shadow: 0px 2px 5px 1px gray;
+}
+
+input[class="a"]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: navy;
+  border-radius: 50px;
+  transition: all 0.9s;
+  background-color: #f7ca33;
+}
+
+input[class="a"]:checked {
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  transition: background-image 0.9s;
+}
+
+input[class="a"]:checked:before {
+  transform: translate(100%);
+  transition: all 0.9s;
+  background-color: #ecf0f3;
+}
+
+.star-icon {
+  color: rgb(168, 153, 153);
+  font-size: 20px !important;
+  width: 30px;
+}
+.rating-box {
+  display: flex;
+  flex-direction: column;
+}
+.star-box {
+  display: flex;
+}
+.review-box {
+  display: flex;
+}
+@media screen and (max-width: 1245px) {
+  .footer-box {
+    width: 90%;
+  }
+  .footer-elements {
+    width: auto;
+  }
+  .footer-connect {
+    align-items: flex-start;
+  }
+  .footer-payment {
+    align-items: flex-start;
+  }
+  .footer-container {
+    width: 90%;
+  }
+}
